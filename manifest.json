@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Simple12",
-    "version": "1.0",
+    "version": "2.0",
     "icons": {
         "48": "icons/icon-200x.png"
     },
@@ -9,7 +9,7 @@
     "content_scripts": [
         {
             "matches": [
-                "*://*.ck12.org/*"
+                "*://*.ck12.org/group-assignments/*"
             ],
             "js": [
                 "index.js"
